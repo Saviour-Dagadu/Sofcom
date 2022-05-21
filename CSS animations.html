@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Anumation</title>
+    <style>
+      .div{
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+      }
+      
+      .firstdiv{
+        background-color: red;
+        animation-name: background-change;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+      .secdiv{
+        background-image:
+        url("Images/IMG-20200403-WA0024.jpg");
+        backgorund-size: cover;
+        animation: image-change 10s infinite;
+        
+      }
+      
+      @keyframes background-change{
+        from{background-color: red;}
+        to{background-color: yellow;}
+      }
+        
+      @keyframes image-change{
+        0%{
+          background-image:
+          url("Images/IMG-20200403-WA0030.jpg");
+        }
+        
+        20%{
+          background-image:
+          url("Images/IMG-20200403-WA0029.jpg");
+        }
+        
+        40%{
+          background-image:
+          url("Images/IMG-20200403-WA0028.jpg");
+        }
+        
+        50%{
+          background-image:
+          url("Images/IMG-20200403-WA0029.jpg");;
+        }
+        
+        60%{
+          background-image:
+          url("Images/IMG-20200403-WA0030.jpg");
+        }
+        
+        80%{
+          background-image:
+          url("Images/IMG-20200403-WA0028.jpg");
+        }
+    
+        100%{
+          background-image:
+          url("Images/IMG-20200403-WA0030.jpg");
+        }
+      }
+    </style>
+  </head>
+
+<body>
+  <div class="div firstdiv"></div>
+  <div class="div secdiv"></div>
+</body>
+</html>

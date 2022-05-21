@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+		  <meta charset="utf-8" />
+		  <meta name="author" content="Savi">
+		  <meta name="description" content="">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style1.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="Images/IMG-20200403-WA0027.jpg" type="Images/jpg" />
+  </head>
+  <body>
+    <header> 
+      <div class ="container">
+        <a href="#" class="brand">Sof<span class="com">com</span></a>
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <section id="info">
+      <div class="container">
+        <div class="info info-image">
+          <img src="Images/IMG-20200403-WA0029.jpg" alt="Member Image"/>
+        </div>
+        <div class="info info-text">
+          <h3>Our Business Info</h3>
+          <div class="info-text-call">
+            <h4>Call Now</h4>
+            <address>+233248929076</address>
+          </div>
+        <div class="info-text-emal">
+            <h4>Email us</h4>
+            <address>support@sofcomfg.com</address>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+<section id="message">
+	     <div class="container">
+		     <div class="message-top">
+			    <h3>Send us your message</h3>
+			 </div>
+			 <div class="message-bottom">
+			    <form>
+				   <div class="form-group">
+				      <label for="name">Name</label>
+					  <input type="text" id="name" class="input" placeholder="John Doe"/>
+				   </div>
+				   <div class="form-group">
+				      <label for="email">Email</label>
+					  <input type="email" id="email" class="input" placeholder="example123@gmail.com" />
+				   </div>
+				   <div class="form-group">
+				       <label for="message">Message</label>
+					   <textarea id="message" placeholder="Message"></textarea>
+				   </div>
+				   <input type="submit" value="Send" class="btn"/>
+				   <button type="button" class="btn" onclick = clearInput()>Clear</button>
+				</form>
+			 </div>
+		 </div>
+</section>
+	  
+	  
+	  
+	  <footer>
+	     <div class="container"></div>
+		    <p>Sofcom &copy; 2020 | All rights reserved</p>
+	  </footer>
+	  
+	  
+	  <script>
+	      function clearInput(){
+			  document.getElementById("message").value = "";
+			  document.getElementById("name").value = "";
+			  document.getElementById("email").value = "";
+		  }
+	  </script>
+    
+  </body>
+</html>
