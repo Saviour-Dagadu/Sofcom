@@ -37,7 +37,7 @@ header .brand{
 }
 
 header .com{
-  color: brown;
+  color: blue;
 }
  
 header nav{
@@ -66,13 +66,13 @@ header nav a{
 }
 
 header nav a:hover{
-  background-color: brown;
+  background-color: blue;
 	color: white;
 }
 
 #promo{
         height: 400px;
-		background-image: url("../Images/IMG-20200403-WA0023.jpg");
+		background-image: url("../Images/apps.jpg");
 		background-size: cover;
 		background-position: center;
 		padding: 40px;
@@ -103,7 +103,7 @@ header nav a:hover{
 #promo .jumbotron a{
          text-decoration: none;
 		 padding: 10px 15px;
-		 background-color: brown;
+		 background-color: blue;
 		 color: white;
 		 border-radius: 5px;
 		 font-weight: 500;
@@ -125,7 +125,7 @@ header nav a:hover{
 
 #welcome .welcome-image{
          width: 25%;
-		 height: 250px;
+		 height: 100%;
 		 border-radius: 50%;
 		 border: 1px solid brown;
 		 overflow: hidden;
@@ -223,7 +223,7 @@ header nav a:hover{
          display: block;
 		 width: 60%;
 		 height: 50px;
-		 border: 1px solid brown;
+		 border: 1px solid blue;
 		 border-radius: 10px;
 		 padding: 0 10px;
 		 margin: 20px auto;
@@ -231,7 +231,7 @@ header nav a:hover{
 
 #subscribe input[type="submit"]{
          border: none;
-		 background-color: brown;
+		 background-color: rgb(18, 12, 215);
 		 border-radius: 5px;
 		 padding: 10px 15px;
 		 color: white;
@@ -243,7 +243,7 @@ header nav a:hover{
 }
 
 #subscribe input[type="submit"]:hover{
-         background-color: rgb(218, 11, 11);
+         background-color: rgb(7, 214, 56);
          box-shadow: 0px 2px black;
          cursor: pointer;
          animation: slideUp 0.4s ease-in-out forwards;
@@ -280,7 +280,7 @@ footer{
 
 #team{
     padding: 30px 0;
-		 background-color: lightgray;
+	background-color: lightgray;
 }
 
 #team .team-top{
@@ -312,7 +312,7 @@ footer{
 #team .team-bottom .team-members{
   width: 30%;
 	height: 450px;
-	background-color: brown;
+	background-color: lightblue;
 	border-radius: 10px;
 	margin: 10px 20px;
 	overflow: hidden;
@@ -342,11 +342,11 @@ footer{
 
 #team .team-members figcaption{
   padding: 10px;
-	color: white;
+	color: black;
 }
 
 #team .team-members figcaption p{
-  color: lightgray;
+  color: darkslategrey;
 }
 
 #team .team-members img{
@@ -400,7 +400,7 @@ footer{
 }
 #info .info-image img{
   max-width: 100%;
-	height: auto
+	height: 100%;
 }
 
 #info .info-image:hover .info-image img{
@@ -451,7 +451,7 @@ footer{
          display: block;
 		 height: 40px;
 		 border-radius: 5px;
-		 border: 1px solid brown;
+		 border: 1px solid blue;
 		 padding-left: 10px;
 		 padding-right: 10px;
 		 width: 100%;
@@ -469,7 +469,7 @@ footer{
          width: 100%;
 		 height: 200px;
 		 border-radius: 5px;
-		 border: 1px solid brown;
+		 border: 1px solid blue;
 		 background-color: white;
 		 padding: 5px 10px;
 		 font: 15px 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
@@ -477,7 +477,7 @@ footer{
 
 #message .message-bottom .btn{
          padding: 10px 20px;
-		 background-color: brown;
+		 background-color: blue;
 		 text-transform: uppercase;
 		 font: 15px 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
 		 border: none;
