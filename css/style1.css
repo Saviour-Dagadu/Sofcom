@@ -514,6 +514,7 @@ footer{
   
   #promo .jumbotron{
              padding-top: 65px;
+			 height: 90%;
   }
   
   #welcome .welcome-info,
@@ -560,12 +561,13 @@ footer{
   }
   
   #promo{
-             padding: 10px;
+    padding: 10px;
   }
   
   #promo .jumbotron{
              padding-top: 70px;
 			 margin: 20px;
+			 height: 90%;
   }
   
   #welcome .welcome-info,
@@ -590,6 +592,7 @@ footer{
   #subscribe input[type="submit"]{
              width: 100%;
 }
+
 }
 
        /* Responsive */
