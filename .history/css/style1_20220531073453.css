@@ -565,7 +565,8 @@ footer{
   }
   
   #promo .jumbotron{
-			 margin: 8px;
+             padding-top: 50px;
+			 margin: 20px;
 			 height: 90%;
   }
   
